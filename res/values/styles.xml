@@ -1,0 +1,13 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <!-- line 5: set the style of this app using default style specified in AndroidManifest.xml -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- line 7: specify the font size -->
+    <item name="android:textSize">22sp</item>
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+</resources>

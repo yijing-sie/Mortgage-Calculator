@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.jblearning.mortgagev4"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <application
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:supportsRtl="true"
+      android:theme="@style/AppTheme">
+    <!-- line 13: specify that portrait orientation only for this app-->
+    <activity android:name=".MainActivity"
+        android:screenOrientation="portrait">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <!-- line 24 : specifying the name of this activity -->
+    <!-- the "."DataActivity here is for appended this name to the package name: line 2-->
+    <!-- sine the full qualified name is "com.jblearning.mortgagev4.DataActivity -->
+    <activity
+        android:name=".DataActivity"
+        android:screenOrientation="portrait" >
+    </activity>
+  </application>
+
+</manifest>
