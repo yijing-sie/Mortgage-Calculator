@@ -21,4 +21,6 @@ https://user-images.githubusercontent.com/84282744/189700641-3e783ad2-ebee-4b7b-
 
 
 
-[report.pdf](report.pdf) demonstrates the correctness of the calculation from Mortgage-Calculator by comparing the results with an onlie mortgage calculator for twelve different cases 
+
+
+* [report.pdf](report.pdf) demonstrates the correctness of the calculation from Mortgage-Calculator by comparing the results with an onlie mortgage calculator for twelve different cases 
