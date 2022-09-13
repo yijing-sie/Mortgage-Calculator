@@ -14,7 +14,7 @@ This is an assignment for Software Design for Visual Environments
 $\huge P = {R\over 12} {M \over (1 - a ^{12Y})}$ where $\huge a = {1 \over 1+ {R\over12}}$
 
 ## Demo
-Below is the demonstration of running Mortgage-Calculator on a real device (Samsung A71):
+Below is a demonstration of running Mortgage-Calculator on a real device (Samsung A71):
 
 
 https://user-images.githubusercontent.com/84282744/189700641-3e783ad2-ebee-4b7b-aa9a-d37337bde8a1.mp4
